@@ -1,0 +1,22 @@
+{
+  "name": "rclient",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "prepare": "panda codegen",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@pandacss/dev": "^0.10.0",
+    "@zag-js/accordion": "^0.14.0",
+    "@zag-js/react": "^0.14.0",
+    "eslint": "8.46.0",
+    "eslint-config-next": "13.4.13",
+    "next": "13.4.13",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}

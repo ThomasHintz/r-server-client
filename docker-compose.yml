@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  app:
+    build: ./rclient
+    ports:
+      - 3001:3000
+
+  server:
+    build: ./rserver
+    ports:
+      - 3002:3000
