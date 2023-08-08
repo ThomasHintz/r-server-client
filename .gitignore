@@ -25,8 +25,6 @@
 # local env files
 /rclient/.env*.local
 
-/rclient/.env*.production
-
 # vercel
 /rclient/.vercel
 
